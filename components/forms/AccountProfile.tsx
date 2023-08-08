@@ -1,5 +1,7 @@
 "use client"
 
+import { Form } from "@/components/ui/form";
+
 interface Props {
   user: {
     id: string,
@@ -14,7 +16,7 @@ interface Props {
 
 const AccountProfile = ({ user, btnTitle }: Props) => {
   return (
-    <div>AccountProfile</div>
+    <Form></Form>
   )
 }
 
